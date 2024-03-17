@@ -6,7 +6,7 @@ def get_name(name):
     return name
 
 
-def get_diff(a,b,c):
-    return a - b - c
+def get_diff(a,b):
+    return a - b
 
 
