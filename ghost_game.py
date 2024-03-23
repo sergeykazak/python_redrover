@@ -11,7 +11,7 @@ while feeling_brave:
     print('Какую из дверей ты откроешь?')
     door_num = int(input('1, 2, или 3 ?'))
     if door_num == ghost_door:
-        print('Мамааааа!!!! Привдение!!! Убегаааееееммм')
+        print('Мамааааа!!!! Приведение!!! Убегаааееееммм')
         feeling_brave = False
     else:
         print('Тут приведения нет!!!')
