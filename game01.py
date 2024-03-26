@@ -1,7 +1,6 @@
 #Ghost Game
 from random import randint
-print("Сыграем в игру Д"
-      "ом с привидениями")
+print("Сыграем в игру Дом с привидениями")
 feeling_brave = True
 score = 0
 while feeling_brave:
