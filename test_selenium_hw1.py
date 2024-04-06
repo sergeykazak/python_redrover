@@ -15,7 +15,7 @@ def test_locked_out_user():
     password.send_keys("secret_sauce")
     browser.find_element(By.XPATH, '//*[@id="login-button"]').click()
     time.sleep(2)
-    locked_out_user_error = browser.find_element(By.XPATH, '//h3[@data-test="error"][contains(text(),"Epic sadface")]')
+    locked_out_user_error = browser.find_element(By.XPATH, '//h3[@data.py-test="error"][contains(text(),"Epic sadface")]')
     assert locked_out_user_error.is_displayed()
     # expected_error_message = ""
     # assert locked_out_user_error == expected_error_message, f"Expected: {expected_error_message}, Actual: {locked_out_user_error}"
