@@ -5,9 +5,6 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 # chromedriver_path = '/usr/local/bin/chromedriver-mac-arm64'
 
-
-
-
 @pytest.fixture
 def driver():
     chrome_options = webdriver.ChromeOptions()
